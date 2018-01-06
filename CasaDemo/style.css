@@ -1,0 +1,129 @@
+
+/*    * {
+    outline: 1px dashed red;
+} */
+
+#wrapper {
+    width: 960px;
+    margin: 0px auto;
+    padding: 0px;
+    border: 1px solid gray;
+}
+    #wrapper img {
+        margin: 0px;
+        padding: 0px;
+        display:block;
+    }
+
+    #ContactPane{
+        width:315 px;
+    }
+    #buttonBar {
+        background-color: darkslategray;
+        color: white;
+        vertical-align:top;
+        padding-left: 0px;
+        padding-top: 10px;
+        margin-top: 0px;
+    }
+            .buttonDiv  {
+                background-color: darkslategray;            
+                Height: 48px;
+                border: 1px solid gray;
+                display:inline-block;
+            }
+            .myButtons{
+                margin: 0px auto;
+                background-color: darkslategray;                       
+                padding: 10px 18px 10px 18px;
+                color: white;
+            }
+            .selectBar {
+                background-color: darkolivegreen;
+                height:8px;
+            }
+        #mainLeft {
+            background-color: white;
+            Width:616px;
+            display: inline-block;
+            vertical-align:top;
+        }
+            .offer {
+                width:290px;
+                height:370px;
+                border: 1px solid gray;
+                display: inline-block;
+                padding: 16px 8px 5px 8px;
+                margin: 0px;
+                vertical-align: top;
+            }
+        #social {
+            display: inline-block;
+            vertical-align:top;
+            width: 340px;        
+        }
+            #social h2 {    
+                    margin: 15px 0px 10px 10px;
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid gray;
+                }
+                #contactInfo { 
+                    margin: 0px 0px 0px 10px;
+                    padding-bottom: 15px;
+                    border-bottom: 1px solid gray;
+                }
+                    #contactInfo h4 { 
+                        margin: 0px;
+                    }
+                    #contactInfo p { 
+                        margin: 0px;
+                    }
+            #faceDiv {    
+                margin: 5px 0px 0px 10px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid gray;
+            }
+            .comment {
+                margin-bottom: 10px;
+            }
+                .commentHdr {
+                    margin: 5px 0px 0px 10px;
+                }
+                    .imgDiv {
+                        display:inline-block; 
+                        margin: 0px; 
+                        vertical-align: top;
+                    }
+                    .imgDiv img {
+                        margin: 0px; 
+                        padding: 0px;
+                    }
+                    .casaLogoDiv {
+                        display:inline-block; 
+                        vertical-align: top;
+                    }
+                    .casaLogoDiv h4 {
+                        margin: 0px;
+                    }
+                    .casaLogoDiv p {
+                        margin: 0px 0px 0px 0px;
+                    }
+                .comment_p{
+                    margin-left: 10px;
+                    margin-bottom: 0px;
+                }
+                .comment blockquote {
+                    margin: 0px 0px 0px 10px;
+                }
+    footer {
+        border: 1px solid gray;
+    }
+        footer button {
+            display: inline-block;
+            border: 1px solid gray;    
+            background-color: white;
+            padding: 10px;
+            margin-right: 10px;
+        } 
+
+    
