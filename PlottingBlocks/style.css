@@ -1,46 +1,52 @@
 /*CSS reset settings here*/
+/* 
+    Feedback: only need to indent the .subcontents and #advertisement rules like I'm suggesting here
+    Don't do more than one level of indentation.  Indentation upon indentation is hard to read and my fault for showing that a couple months ago.
+    Sweat the small stuff with your syntax. Be critical of yourself. Aim for perfection.  
+    Proper indentation, brackets at appropriate levels, etc.
+ */
 *{
     margin: 0px;
     padding: 0px;
-   }
-   #wrapper{
+}
+#wrapper{
     width: 950px;
     background-color: silver;
     margin: 0px auto;
     /* outline: 1px solid red; */
     padding: 20px; 
-    }
-    #header{
-        height: 150px;
-        background-color: green;
-        margin-bottom: 30px;
-    }
-    #navigation{
-        height: 300px;
-        width: 200px;
-        background-color: blue;
+}
+#header{
+    height: 150px;
+    background-color: green;
+    margin-bottom: 30px;
+}
+#navigation{
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    display: inline-block;
+}
+#main_content{
+    height: 400px;
+    width: 700px;
+    background-color: red;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 35px;
+    padding-left: 10px;
+    padding-top: 5px;
+} 
+    .subcontents{
+        height: 200px;
+        width: 210px;
+        background-color: yellow;
         display: inline-block;
+        margin: 5px;
     }
-    #main_content{
-        height: 400px;
-        width: 700px;
-        background-color: red;
-        display: inline-block;
-        vertical-align: top;
-        margin-left: 35px;
-        padding-left: 10px;
-        padding-top: 5px;
-        }
-        .subcontents{
-            height: 200px;
-            width: 210px;
-            background-color: yellow;
-            display: inline-block;
-            margin: 5px;
-        }
-        #advertisement{
-            height: 120px;
-            width: 660px;
-            background-color: purple;
-            margin: 5px;
-        }
+    #advertisement{
+        height: 120px;
+        width: 660px;
+        background-color: purple;
+        margin: 5px;
+    }

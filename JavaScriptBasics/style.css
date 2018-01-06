@@ -3,9 +3,9 @@
     margin: 0px;
     padding: 0px;
    } */
+/* Quick notes: Too many indentations like I mentioned in a previous assignment.  My fault again for that.  Clean looking result though */
 
-
-wrapper{
+.wrapper{
     width: 970px;
     background-color: #1d355c;
     padding: 10px;
