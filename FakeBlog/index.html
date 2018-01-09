@@ -11,13 +11,31 @@
     <img src="FunnyFace.png" alt="Jordan Face">
     <p>Lorem ipsum amet commodo quisque nibh dolor quisque interdum erat turpis, pretium iaculis aliquam tempus feugiat etiam dictumst fringilla tempor, scelerisque malesuada mollis scelerisque venenatis morbi tortor vivamus turpis quisque duis semper sed.</p>
     <div>
+      <!-- proper way to make a table... -->
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- use this ^^^ format if you ever build a table in front of students -->
        <table>
         <tr>
           <th>Year</th>
           <th>PPG</th> 
           <th>MVP</th>
         </tr>
-        <tr>
+        <tr> <!-- indentation is poor below this point -->
                 <td>1990-1991</td>
                 <td>315</td> 
                 <td>Yes</td>
@@ -64,6 +82,7 @@
 
         <input type="radio" id="Yes">
         <label for="Yes">Yes, please send me lot's of emails</label>
+        <!-- I believe labels are mentioned before inputs in the flow of the DOM -->
         
         <input type="radio" id="No">
         <label for="No">No, please do not send me lot's of emails</label>
@@ -72,7 +91,7 @@
 
         <input type="Checkbox" id="FaceBook">
         <label for="FaceBook">FaceBook</label>
-        <br>
+        <br> <!-- please don't use <br> tags for spacing, I understand in an early assignment you just want it done -->
         <input type="Checkbox" id="Newspaper">
         <label for="Newspaper">Newspaper</label>
         <br>

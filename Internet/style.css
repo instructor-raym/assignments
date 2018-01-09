@@ -11,6 +11,9 @@
     /* outline: 1px dashed red;
     */
 }
+
+    /* I like the selector patterns in this stylesheet  .class element { ... }  
+       The image of the ninja on the left needs some work obviously :) */
 .wrapper {
     width: 1009px;
 }

@@ -1,6 +1,14 @@
 /* * {
     outline: dashed 1px red;
 } */
+
+/* Indentation again 
+   Your paddings are affecting the overall size of the .main container and therefore your header and .main are not lining up perfectly.
+   Buttons under technologies are not centered based on button size, so go to their parent containers and adjust its paddings so that the contents, 
+   in this case, the buttons are centered automatically.  Or simply pull a fast one and set the containers of the buttons text-align property to center.
+   Cheap trick, but works.
+*/
+
 body *{
 	padding:0px;
 	margin:0px;
