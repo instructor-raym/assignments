@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Make a Billion</title>
+    <script>
+        var amt = 0.01;   // Starting amount
+        var nDayOf10K = 0;
+        var bFound = false;
+        var strMessage = "";
+
+        for (var i = 0; i <= 30; i++ ){
+            if (amt >= 10000.00 && bFound == false) {
+                console.log ( "Made 10K on day", i);
+                bFound = true;
+            }
+            amt = amt + amt;
+        } // End for loop
+        var i = 0;
+        amt = 0.01;
+        bFound = false;
+        while (isFinite(amt)){
+            if (amt >= 1E9 && bFound == false) {
+                console.log ( "Made a billion on day", i);
+                bFound = true;
+            }
+            amt = amt + amt;
+            i = i + 1;
+        } // End while loop
+        console.log ( "Infinity reached on day" , i);
+        
+    </script>
+</head>
+<body>
+</body>
+</html>

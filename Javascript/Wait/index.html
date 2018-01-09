@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>While You Wait</title>
+    <script>
+        var daysUntilMyBirthday = 60;
+        var strMessage = "";
+
+        for (var i = daysUntilMyBirthday; i >= 0; i-- ){
+            if (i > 30) {
+                strMessage = i + " days until my birthday.  Such a long time...";
+            }
+            if (i <= 30) {
+                strMessage = i + " DAYS UNTIL MY BIRTHDAY!!!";
+            }
+            
+            if (i == 0) {
+                strMessage = "♪ღ♪*•.¸¸¸.•*¨¨*•.¸¸¸.•*•♪ღ♪¸.•*¨¨*•.¸¸¸.•*•♪ღ♪•*\n♪ღ♪░H░A░P░P░Y░ B░I░R░T░H░D░A░Y░░♪ღ♪\n*•♪ღ♪*•.¸¸¸.•*¨¨*•.¸¸¸.•*•♪¸.•*¨¨*•.¸¸¸.•*•♪ღ♪•«";
+            }
+            console.log(strMessage);
+        } // End loop
+    </script>
+</head>
+<body>
+</body>
+</html>

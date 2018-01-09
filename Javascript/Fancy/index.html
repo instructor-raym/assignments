@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fancy Array</title>
+    <script>
+        function prntAry(arr, strSymbol) {
+            console.log(arr);
+            for (var i = 0; i < arr.length; i++) {
+                console.log(i + " " + strSymbol + " " + arr[i]);
+            }
+            return 0;
+        }
+
+        var arr = [ "James", "Jill", "Jane", "Jack" ];
+        var r = prntAry(arr, "->");
+        var r = prntAry(arr, ":");
+    </script>
+</head>
+<body>
+</body>
+</html>

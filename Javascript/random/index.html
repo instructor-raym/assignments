@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random</title>
+    <script>
+        function slot(nQuarters) {
+            var nGames = nQuarters;
+            // Play games until there are no more quarters or you win
+            while (nQuarters > 0){
+                nQuarters--;        // Put a quarter in the slot
+                var r = Math.floor(Math.random()*100) +1;  // Returns 1 - 100
+                if (r >= 100) { 
+                    console.log("Won!");
+                    // Collect the winnings
+                    nQuarters += Math.trunc(Math.random() * 51)+50 ; // 50-100 inclusive
+                    break;
+                } 
+            }
+            return nQuarters;
+        } // End function slot
+
+        // Test function to see if the math formulas are right:
+        function rTest () {
+            for (var i = 1; i <= 1000; i++) {
+                var r = Math.floor(Math.random()*100) +1; // Returns 1-100.
+                if (r >= 100) { console.log(r); // Should see around 10 of these
+                }
+            }
+        }
+        var nQuarters = slot(42);
+        console.log("Result: " + nQuarters);
+    </script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Can I Have the Time?</title>
+    <script>
+        var tHour = 11;
+        var tMinute = 0;
+        var tPeriod = "AM";
+
+        var strMinMod = "";
+        var strPeriodMod = "";
+
+        if (tMinute < 30) {strMinMod = "just after" }
+        if (tMinute > 30) {strMinMod = "almost" }
+        if (tMinute == 0) {strMinMod = "" }
+        if (tMinute == 30) {strMinMod = "half past" }
+        strPeriodMod = ".";
+        if (tPeriod == "AM") { strPeriodMod = "in the morning."; }
+        if (tPeriod == "PM") { strPeriodMod = "in the evening."; }
+        
+        console.log("It's", strMinMod, tHour, strPeriodMod);
+        
+    </script>
+
+</head>
+<body>
+</body>
+</html>
