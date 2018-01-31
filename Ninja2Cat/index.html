@@ -9,6 +9,11 @@
 	<script src="jquery-3.2.1.js"></script>
 	<script>
 		$(document).ready(function(){
+			// this is from the solution. redo this one, but in a way a student would do it. They wouldn't think to use a temp attribute
+			// Aim for about twice as many lines of code to separate out the logic of a function in a function and avoid using the temp attribute
+			// the idea of a temp VARIABLE is fine to do the swapping of attribute values, but don't add a temp attribute to the HTML. We don't
+			// display that in the assignment.
+
 			$('img').click(function(){
 				console.log("Got a click");
 				$(this).attr('temp', $(this).attr('src'));
@@ -19,7 +24,7 @@
 	</script>
 </head>
 <body>
-	<img src="ninja0.png" alt-src='cat0.png' temp="">
+	<img src="ninja0.png" alt-src='cat0.png' temp=""><!-- get rid of temp attributes -->
 	<img src="ninja1.png" alt-src='cat1.png' temp="">
 	<img src="ninja2.png" alt-src='cat2.png' temp="">
 	<img src="ninja3.png" alt-src='cat3.png' temp="">
