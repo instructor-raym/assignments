@@ -18,9 +18,9 @@ All other assignments I expect to have them completed by the time one of our stu
 - Periodic Table * (think about how to solve this one or look at solution)
 
 #### Responsive Web - End of February
-- Simply Responsive
-- Responsive Blocks
-- Responsive Portfolio
+- Simply Responsive *
+- Responsive Blocks *
+- Responsive Portfolio *
 
 #### Javascript
 - JS Scroll *
