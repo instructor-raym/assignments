@@ -1,0 +1,9 @@
+#wrapper {
+    width: 1024px;
+}
+.pics {
+    height: 402px;
+    width: 252px;   
+    display: inline-block;
+}
+

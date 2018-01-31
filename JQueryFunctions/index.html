@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>JQuery functions</title>
+	<script src="jquery-3.2.1.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#click button').click(function(){
+				$('#click p').on('click', function(){
+				   $('#click').append("<h2>You're clicking me!</h1>");
+				})
+			})
+			$('#hide button').click(function(){
+				$('#hide p').hide('slow');
+			})
+			$('#show button').click(function(){
+				$('#hide p').show('slow');
+			})
+			$('#toggle button').click(function(){
+				$('#toggle p').toggle('slow');
+			})
+			$('#slideDown button').click(function(){
+				$('#slideDown p').slideDown("slow");
+			})
+			$('#slideUp button').click(function(){
+				$('#slideDown p').slideUp("slow");
+			})
+			$('#slideToggle button').click(function(){
+				$('#slideDown p').slideToggle("slow");
+			})
+		})	
+	</script>
+<body>
+	<div id="click">
+		<h1>click</h1>
+		<p>Click the button below to make the paragraph clickable</p>
+		<button>Click</button>
+	</div>
+	<div id="hide">
+		<h1>hide</h1>
+		<p>A hiding paragraph</p>
+		<button>Click to hide this paragraph</button>
+	</div>
+	<div id="show">
+		<h1>show</h1>
+		<p>Hi, I am a paragraph that doesn't change</p>
+		<button >Click to show the paragraph above</button>
+	</div>
+	<div  id = "toggle">
+		<h1>toggle</h1>
+		<p>toggles between show and hide</p>
+		<button>Click to show/hide the paragraph</button>
+	</div>
+	<div id="slideDown">
+		<h1>slideDown</h1>
+		<p>Do a slide down</p>
+		<p hidden>Boo!</p>
+		<button>Click to slide down the paragraph</button>
+	</div>
+	<div id="slideUp">
+		<h1>slideUp</h1>
+		<p>Hides previous paragraph by sliding up</p>
+		<p>I am not hiding</p>
+		<button>Click to slide up the previous paragraph</button>
+	</div>
+	<div id="slideToggle">
+		<h1>slideToggle</h1>
+		<p>Slide up or slide down</p>
+		<button>Click to switch previous paragraph between slide up and slide down</button>
+	</div>
+
+</body>
+</html>
