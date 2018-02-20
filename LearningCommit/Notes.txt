@@ -1,0 +1,15 @@
+Assignment: Learning to Commit
+In code as in real life, commitment can be scary, but it is something we all need to learn how to do. Now that you've finished with some of the basics of Git, it's time to put this new knowledge into practice. Follow the instructions below and refer back the previous tabs if you get stuck! You will be doing this assignment locally so to get started open up your terminal app! Happy coding!
+
+Open terminal and navigate to your desktop  
+Create a new folder and call it 'gittest'  
+Navigate into your new folder, initialize your git repository  
+Create three files, 'index.html','styles.css' & 'aboutMe.txt' 
+   and make an initial commit with a comment  
+Write a small bio of yourself in the aboutMe.txt file, 
+   commit the changes with the message 'updated aboutMe'  
+Add your favorite movie to your aboutMe.txt file and 
+   commit the changes with the message 'added favorite movie to aboutMe'  
+View the logs to see your commit history  
+Revert to your last commit, change your favorite movie to your favorite book and recommit  
+Write your commands in a text file and upload it below

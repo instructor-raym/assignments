@@ -1,0 +1,114 @@
+ cd /D  c:\Users\DELL\desktop
+
+ cd
+c:\Users\DELL\Desktop
+
+ md test
+
+ cd test
+
+ copy nul index.html
+        1 file(s) copied.
+
+ copy nul stules.css
+        1 file(s) copied.
+
+ copy nul command.txt
+        1 file(s) copied.
+
+ dir
+ Volume in drive C has no label.
+ Volume Serial Number is 08E3-B450
+
+ Directory of c:\Users\DELL\Desktop\test
+
+02/19/2018  09:22 PM    <DIR>          .
+02/19/2018  09:22 PM    <DIR>          ..
+02/19/2018  09:22 PM                 0 command.txt
+02/19/2018  09:21 PM                 0 index.html
+02/19/2018  09:21 PM                 0 stules.css
+               3 File(s)              0 bytes
+               2 Dir(s)  60,210,192,384 bytes free
+
+ del stules.css
+
+ dir
+ Volume in drive C has no label.
+ Volume Serial Number is 08E3-B450
+
+ Directory of c:\Users\DELL\Desktop\test
+
+02/19/2018  09:22 PM    <DIR>          .
+02/19/2018  09:22 PM    <DIR>          ..
+02/19/2018  09:22 PM                 0 command.txt
+02/19/2018  09:21 PM                 0 index.html
+               2 File(s)              0 bytes
+               2 Dir(s)  60,210,126,848 bytes free
+
+ cd ..
+
+ md destination
+
+ copy test\index.html test\index2.html
+        1 file(s) copied.
+
+ dir test
+ Volume in drive C has no label.
+ Volume Serial Number is 08E3-B450
+
+ Directory of c:\Users\DELL\Desktop\test
+
+02/19/2018  09:23 PM    <DIR>          .
+02/19/2018  09:23 PM    <DIR>          ..
+02/19/2018  09:22 PM                 0 command.txt
+02/19/2018  09:21 PM                 0 index.html
+02/19/2018  09:21 PM                 0 index2.html
+               3 File(s)              0 bytes
+               2 Dir(s)  60,210,126,848 bytes free
+
+ ren test\index2.html test\index_2.html
+The syntax of the command is incorrect.
+
+ cd test
+
+ ren index2.html index_2.html
+
+ cd ..
+
+ move test\index_2.html destination
+        1 file(s) moved.
+
+ dir destination
+ Volume in drive C has no label.
+ Volume Serial Number is 08E3-B450
+
+ Directory of c:\Users\DELL\Desktop\destination
+
+02/19/2018  09:26 PM    <DIR>          .
+02/19/2018  09:26 PM    <DIR>          ..
+02/19/2018  09:21 PM                 0 index_2.html
+               1 File(s)              0 bytes
+               2 Dir(s)  60,210,069,504 bytes free
+
+ dir test
+ Volume in drive C has no label.
+ Volume Serial Number is 08E3-B450
+
+ Directory of c:\Users\DELL\Desktop\test
+
+02/19/2018  09:26 PM    <DIR>          .
+02/19/2018  09:26 PM    <DIR>          ..
+02/19/2018  09:22 PM                 0 command.txt
+02/19/2018  09:21 PM                 0 index.html
+               2 File(s)              0 bytes
+               2 Dir(s)  60,210,069,504 bytes free
+
+ rd destination
+The directory is not empty.
+
+ rd /S destination
+destination, Are you sure (Y/N)? Y
+
+ cd test
+
+ command.txt
