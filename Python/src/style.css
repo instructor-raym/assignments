@@ -19,7 +19,7 @@ header {
     }
     #hdrRight {
         display: inline-block;
-        vertical-align:top;
+        vertical-align: top;
         margin-left: 400px;
     }
     #hdrRight div span {

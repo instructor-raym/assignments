@@ -3,7 +3,7 @@ Assignments with a star are nice-to-know but should be done by end of February.
 All other assignments I expect to have them completed by the time one of our students would be going through that material
 
 #### Terminal & Git - End of Week 1
-- Learning to Commit (only upload the git commands in a text file)
+- Learning to Commit (only upload the git commands in a text file) [DONE]
 - GitHub Repo Assignment (only upload the git commands in a text file)
 
 #### CSS - End of Week 2
@@ -11,7 +11,7 @@ All other assignments I expect to have them completed by the time one of our stu
 - (I Added the HTML to your Plotting Your Blocks for you)
 - Redo Javascript Basics (Did you use the solution for this?)
 - Redo Portfolio (again, did you use the solution for this?)
-- About Python
+- About Python [DONE]
 - Redo Internet (I can tell you used the solution for the HTML skeleton)
 - Git Blocks *
 - Shapes *  
