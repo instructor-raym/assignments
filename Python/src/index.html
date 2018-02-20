@@ -13,8 +13,8 @@
             <img src="images\python.png" alt="Python Logo">
             <div id="hdrRight">
                 <div>
-                    <span>Text Size:</span><a id="aleft" href=#>Normal</a><a href=#>Large</a>
-                </div>
+                    <span>Text Size:</span><!-- span is meant to be used inline, and within another element like <p><span>blah</span> ... </p> --><a id="aleft" href=#>Normal</a><a href=#>Large</a>
+                </div> <!-- do it without the div surrounding the span. If it's in a <p> then I think it'll be easier to imagine -->
                 <form action="" >
                     <input id="searchVal" type="text" name="searchVal" value="      Search">
                     <input id="go" type="submit" value="Go">
@@ -31,7 +31,7 @@
         </ul>
         <main>
             <ul>
-                <li><span>»</span><p>Docs</p></li>
+                <li><span>»</span><p>Docs</p></li><!-- might as well get used to using <a> instead of <p> here because they should be links -->
                 <li><span>»</span><p>AudioVisual Talks</p></li>
                 <li><span>»</span><p>Beginner's Guide</p></li>
                 <li><span>»</span><p>Developer's Guide</p></li>
@@ -53,7 +53,7 @@
         </main> 
         <div id="center">
             <div>
-                <div class="bar"></div>
+                <div class="bar"></div> <!-- try not to use divs to get lines and such. border-top on the two divs below can work -->
                 <div class="bar2"></div>
             </div>
             <div id="centerLeft">
@@ -66,7 +66,7 @@
                 </ul>
             </div> <!-- End centerLeft -->
             <div id="centerRight">
-                    <h3>Applications</h3>
+                    <h3>Applications</h3> <!-- indentation in this area -->
                     <p> The <span>Python Package Index (PyPI)</span> hosts thousands of third-party modules for Python.  Both Python's standard library and the community-contributed modules allow for endless possibilities.</p>
                         <ul>
                             <li>Web and Internet Development</li>
@@ -78,7 +78,7 @@
             </div> <!-- End centerRight -->
         </div> <!-- End center -->
         <footer>
-            <ul id="footNav">
+            <ul id="footNav"><!-- don't need this id right? footer ul { } is your selector -->
                 <li>Help and General Contract</li>
                 <li>Diversity Initiatives</li>
                 <li>Submit Website Bugs</li>
