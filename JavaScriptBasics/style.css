@@ -1,85 +1,84 @@
-/*CSS reset settings here*/
-/* *{
-    margin: 0px;
-    padding: 0px;
-   } */
-/* Quick notes: Too many indentations like I mentioned in a previous assignment.  My fault again for that.  Clean looking result though */
 
-.wrapper{
-    width: 970px;
-    background-color: #1d355c;
+#wrapper {
+    width: 1090px;
+    margin: 0px auto;
+    background-color: blue;
+    border-top: 2px solid rgb(121, 121, 240) ; 
+    padding-bottom: 10px;
+}
+#wrapper h1 {
+    color: rgb(184, 184, 247); 
+    background-color: rgb(231, 31, 31);
+    padding-left: 20px;
+    padding-top: 21px;
+    height: 62px;
+    margin: 15px;
+    border: 5px solid rgb(231, 31, 31);
+    border-radius:  25px;
+}
+nav {
+    background-color: rgb(41, 94, 110);
+    color: rgb(184, 184, 247); 
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px 15px 0px 15px;
+    width:189px;
+    border: 5px solid rgb(41, 94, 110);
+    border-radius:  25px;
+    display: inline-block;
+    vertical-align:top;
+}
+.navlist {
+    margin-top: 1px;
+    margin-bottom: 1px;   
+}
+.navtext{
+    color: rgb(184, 247, 223); 
+}   
+.navlist ul {
+    margin-left: -24px; 
+    padding-left: 2.5em;
+    /* list-style-position: inside; */
+}    
+.navlist li {
+     margin-left:-20px;
+     padding-left: 0px;
+    /*list-style-position: -10px;  
+    text-indent: 0em; */
+}
+ 
+main {
+    display: inline-block;
+    vertical-align:top;
+    width: 785px;
+    margin-left:5px;
+    border: 5px solid black;
+    border-radius:  25px;
+    background-color: black;
+    color: white;
     padding: 10px;
 }
-    /* This refers to all a tags on the page */
-    a{
-        color: #61cac7;
-        font-size: 12px;
-    }
-
-    /* This refers to all p tags on the page */
-    p{
-        color: #c4d8ec;
-        font-size: 12px;
-    }
-
-    .header{
-        width: 970px;
-        /*height: 100px;*/
-        background-color: #cc323b;
-        border-radius: 10px;
-        margin-bottom: 10px;
-    }
-
-        .header h1{
-            margin: 0;
-            padding: 15px 0 15px 10px;
-            color: #c3d6eb;
-        }
-
-    .navbar{
-        width: 180px;
-        background-color: #2f7d8b;
-        border-radius: 10px;
-        padding: 10px;
-        display: inline-block;
-        vertical-align: top;
-    }
-
-        ul{
-            color: white;
-            padding-left: 20px;
-            margin: 0;
-        }
-
-    .main{
-        width: 720px;
-        display: inline-block;
-        margin-left: 15px;
-        background-color: #0f1822;
-        border-radius: 10px;
-        color: #c4d8ec;
-        padding: 15px;
-    }
-
-        .main h2{
-            margin: 10px 0;
-        }
-
-            .main ul li p{
-                margin: 5px 0;
-            }
-
-    span{
-        color: #6d80ce;
-    }
-
-    .footer{
-        margin-top: 10px;
-        width: 970px;
-        background-color: #5e6672;
-        border-radius: 15px;
-    }
-
-        .footer p{
-            padding: 15px 0 15px 15px;
-        }
+main ul span {
+    color: rgb(72, 39, 180);
+}
+main ul li p a {
+    color: cyan;
+}
+footer {
+    color: white; 
+    background-color: gray;
+    padding-left: 20px;
+    height: 37px;
+    margin: 15px;
+    border: 5px solid gray;
+    border-radius:  15px;
+}
+footer p {
+    margin: 0px;
+    vertical-align: center;
+    padding-top: 8px;
+}
+footer p a {
+   color: cyan;
+}
