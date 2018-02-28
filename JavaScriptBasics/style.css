@@ -37,6 +37,9 @@ nav {
     color: rgb(184, 247, 223); 
 }   
 .navlist ul {
+    /* 
+        negative margins? I would avoid them if possible and don't introduce them as a solution to students
+    */
     margin-left: -24px; 
     padding-left: 2.5em;
     /* list-style-position: inside; */
