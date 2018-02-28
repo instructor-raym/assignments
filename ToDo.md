@@ -9,7 +9,7 @@ All other assignments I expect to have them completed by the time one of our stu
 #### CSS - End of Week 2
 - Take another Yellow Belt exam (I don't care which, just not a repeat)
 - (I Added the HTML to your Plotting Your Blocks for you)
-- Redo Javascript Basics (Did you use the solution for this?)
+- Redo Javascript Basics (Did you use the solution for this?) [DONE]
 - Redo Portfolio (again, did you use the solution for this?)
 - About Python [DONE]
 - Redo Internet (I can tell you used the solution for the HTML skeleton)
