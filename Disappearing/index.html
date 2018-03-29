@@ -5,10 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>JQuery functions</title>
+    <link rel="stylesheet" href="style.css">    
 	<script src="jquery-3.2.1.js"></script>
 	<script>
 		$(document).ready(function(){
-			$('.pics').click(function(){
+			$('img').click(function(){
 				$(this).hide() ;
 			})
 			$('button').click(function(){
@@ -18,20 +19,18 @@
 	</script>
 </head>
 <body>
-	<div id="wrapper">
-		<h1>Disappering Ninja Assignment</h1>
-		<img class="pics" src="Horse.png">
-		<img class="pics" src="Horse.png">
-		<img class="pics" src="Horse.png">
-		<img class="pics" src="Horse.png">
-		<img class="pics" src="Horse.png">
-		<img class="pics" src="Horse.png">
-		<img class="pics" src="Horse.png">		
-		<img class="pics" src="Horse.png">
-		<div>
-			<button>Click</button>
-		</div>
-	</div>
+	<div class="wrapper">
+		<h1>Disappering Ninja Assignment
+		<button>Click</button></h1>
+		<div><img  src="Horse.png"></div>
+		<div><img  src="Horse.png"></div>
+		<div><img  src="Horse.png"></div>
+		<div><img  src="Horse.png"></div>
+		<div><img  src="Horse.png"></div>
+		<div><img  src="Horse.png"></div>
+		<div><img  src="Horse.png"></div>
+		<div><img  src="Horse.png"></div>
+	</div> <!-- End wrapper -->
 
 
 </body>

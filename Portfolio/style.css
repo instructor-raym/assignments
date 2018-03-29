@@ -1,134 +1,140 @@
 /* * {
-    outline: dashed 1px red;
+	outline: 1px dashed red;
 } */
-
-/* Indentation again 
-   Your paddings are affecting the overall size of the .main container and therefore your header and .main are not lining up perfectly.
-   Buttons under technologies are not centered based on button size, so go to their parent containers and adjust its paddings so that the contents, 
-   in this case, the buttons are centered automatically.  Or simply pull a fast one and set the containers of the buttons text-align property to center.
-   Cheap trick, but works.
-*/
-
-body *{
-	padding:0px;
-	margin:0px;
-	font-family: 	Arial;
-}
-
 .wrapper {
-	width:960px;
-	height:1000px;
+	width: 761px;
+	margin: auto;
+	background-color: rgb(112, 3, 112);
 }
-	.header {
-		width:938px;
-		height: 30px;
-		padding:15px;
+.topbar {
+	background-color: white;
+	margin: 0px;
+	padding: 0px;
+	height:48px;
+}
+.topbar h1 {
+	font-style: italic;
+	color: black;
+	padding-left: 20px;
+	padding-top: 2px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px;
+}
+.topbar h3 {
+	font-style: bold;
+	color:black;
+	padding-left: 268px;
+	padding-top: 8px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px;
+}
+.info {
+	padding: 20px 20px 0px 20px;
+}
+.info img {
+	width: 345px;
+	margin: 0px;
+	display: inline-block;
+	vertical-align: top;
+}
+.info div {
+	width: 345px;
+	height:227px;
+	margin: 0px;
+	display: inline-block;
+	background-color: rgb(243, 237, 243);
+	vertical-align: top;
+	margin-left:20px;
+}
+.info div h1 {
+	font-size: 1.5em;
+	background-color: rgb(187, 184, 184);
+	margin: 0px;
+	padding: 4px 4px 4px 8px;
+	color: white;
+}
+.info div p {
+	padding: 0px 8px 0px 8px;
+}
+.info div a {
+	padding: 0px 8px 0px 8px;
+}
+.projects {
+	padding: 20px 20px 5px 20px;
+}
+.projects :nth-child(3) {
+	margin-right:0px;
+}
+.projPanel {
+	vertical-align: top;
+	display: inline-block;
+	width:222px;
+	background-color: rgb(243, 237, 243);
+	margin: 0px 20px 20px 0px;
+}
+	.projPanel h1 {
+		font-size: 1.5em;
+		background-color: rgb(187, 184, 184);
+		margin: 0px;
+		padding: 4px 4px 4px 8px;
+		color: white;
 	}
-		.header h2{
-			display:inline-block;
-			margin-right: 480px;
-		}
-		.header h3 {
-			display:inline-block;
-		}
-	.main {
-		padding:20px 20px;
-		width:942px;
-		height:870px;
-		background: radial-gradient(#6f5964, #1f0f13);
+	.projPanel p {
+		height: 169px;
+		padding: 4px 8px 0px 8px;
+		margin: 0px;
+		vertical-align: top;
 	}
-		.main img{
-			margin-bottom: 20px;
-			width:410px;
-			height:auto;
-			border: 5px solid #7d7377;
-		}
-		.main .about_me_section{
-			background: linear-gradient(to bottom right, #fefefe, #dbcbda); 
-			width: 500px;
-			display:inline-block;
-			vertical-align: top;
-			height:280px;
-		}
-			.main .about_me_section h2 {
-				padding: 5px 10px;
-				background: linear-gradient(#bdbdbf, #888694, #bdbdbf); 
-				color:white;
-			}
-		.main p {
-			margin-bottom: 15px;
-			padding-left: 10px;
-		}
-		.main a{
-			padding-left: 10px;
-		}
-		.projects {
-			width:295px;
-			height: 570px;
-			display : inline-block;
-			background-color: lightgray;
-			vertical-align: top;
-			background: linear-gradient(to bottom right, #fefefe, #dbcbda); 
-			margin-right:15px;
-		}
-			.projects img, 
-			.projects ul {
-				width: 275px;
-				margin:0;
-			}
-			.projects h2 {
-				width: 273;
-				padding: 5px 10px;
-				color: white;
-				background: linear-gradient(#bdbdbf, #888694, #bdbdbf); 
-			}
-			.projects img{
-				border:none;
-			}
-			.projects p{
-				width: 278;
-			}
-			.tech_images {
-				padding:15px 0px 0px 12px;
-			}
-			.tech_images li{
-				display: inline-block;
-				margin-right:10px;
-			}
-			.tech_images img{
-				width:40px;
-				height:40px;
-			}
-			.projects button {
-				background-color: green;
-				color:white;
-				border:solid 1px black;
-				border-radius: 3px;
-				padding:5px;
-				margin: 10px 80px;
-				font-weight: 900;
-			}
-	.footer{
-		width:968px;
-		height:50px;
+	.projPanel img{
+		width:inherit;
 	}
-		.footer p
-		{
-			margin:auto;
-			width: 240px;
-		}
-		.footer ul {
-			width: 380px;
-			margin:auto;
-		}
-			.footer ul li {
-				display:inline-block;
-			}
-		.footer img {
-			width: 25px;
-			height:auto;
-			margin:auto;
-		}
-		.footer, .header{
-			background-color: #f9f9f9
-		}
+	.projPanel h2 {
+		background-color: rgb(187, 184, 184);
+		color: white;
+		font-size: 1.2em;
+		margin: 0px;
+		padding-left: 8px;
+	}
+.techlogos {
+	width:212px;
+	display: inline-block;
+	padding: 4px;
+	vertical-align: top;
+}
+	.techlogos img{
+		width: 35px;
+		margin: 2px;
+		vertical-align: top;
+	}
+	.techlogos button {
+		background-color:rgb(41, 80, 8);
+		color:white;
+		border-radius: 8px;
+		display:block;
+		margin: auto;
+		margin-top: 4px;
+		padding: 4px 4px 4px 4px;
+	}
+	footer {
+		background-color: white;
+		height: 52px;
+		text-align: center;
+	}
+	
+	footer {
+		padding-top: 5px;
+	} 
+	footer h4 {
+		margin: 0px 0px 12px 0px;
+	}
+	footer img {
+		width: 19px;
+		vertical-align: top;
+		margin-top: 1px;
+	}
+	footer a {
+		font-style: italic;
+		vertical-align: top;
+	}

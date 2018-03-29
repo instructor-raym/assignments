@@ -1,9 +1,17 @@
-#wrapper {
-    width: 1024px;
+.wrapper {
+    width: 900px;
+    margin: 0px auto;
 }
-.pics {
-    height: 402px;
-    width: 252px;   
+.wrapper div {
+    height: 150px;
+    width: 125px;  
+    margin: 0px; 
     display: inline-block;
+    border: 1px solid red;   
+}
+.wrapper div img {
+    height: 150px;
+    width: 125px;  
+    
 }
 
