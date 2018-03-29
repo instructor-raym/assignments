@@ -13,6 +13,7 @@
         <nav>
             <a class="navtext" href="">Home</a>
             <ul class="navlist">
+                <!-- if it feels like you're using a class in way too many places, try to consolidate -->
                 <li><a class="navtext" href="">JavaScript Overview</a></li>
                 <ul>
                     <li><a class="navtext" href="">Variable Declaration</a></li>
@@ -31,6 +32,7 @@
             <h2>JavaScript Basics</h2>
             <p>JavaScript is a cross-platform, object-oriented scripted language. JavaScript is extremely popular for a variety of reasons. It is a small and lightweight language allowing maximum flexibility for developers to take it in a bunch of different directions. JavaScript lives inside a host environment (a web browser or Node server), it can be connected to the objects of these environments to provide programmatic control over them.</p>
             <ul>
+                <!-- <li> should suffice. I don't think you need to add the <p> tag as well. I think <span> can live inside an <li> without a <p> needed -->
                 <li><p><a href="">Variable Declaration</a> JavaScript variables are containers for storing data values - imagine a cup you fill with coffee, the cup holds the coffee, a variable holds a value. All JavaScript variables must be identified with unique means. These unique names are called identifiers. <span>var x;</span></p></li>
                 <li><p><a href="">Variable Assignment</a> Assignment operators assign values to JavaScript variables - our cup can now have coffee poured in it, giving out variable a value to hold. The = assignment operator assigns a value to a variable. <span>var x = 10;</span></p></li>
                 <li><p><a href="">Data Type</a> Data Types are an important concept; to be able to operate on variables, you need to know the data type. These are six data types that are JavaScript primitives: Boolean - <span>true</span> or <span>false;</span> null - <span>null</span> aka nothing; Number - <span>42</span> or <span>3.14159;</span> String - <span>"Coding Dojo Rocks!";</span> and Object - <span >{first_name: 'Donovan', last_name:'An'}</span></p></li>
